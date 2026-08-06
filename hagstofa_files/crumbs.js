@@ -1,0 +1,1 @@
+﻿var descriptionList = [{"word":"Atvinnuleysi","description":"Atvinnuleysi er hlutfall þeirra sem eru atvinnulausir af vinnuafli."}];
