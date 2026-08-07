@@ -2299,7 +2299,7 @@ async function sendaSpoorningu() {
         const data = await response.json();
         svarBox.innerText = data.svar;
     } catch (error) {
-        svarBox.innerHTML = "<span style='color: red;'>❌ Gat ekki náð sambandi við Hag. Gakktu úr skugga um að Colab sé í gangi og að slóðin sé rétt!</span>";
+        svarBox.innerHTML = "<span style='color: red;'>❌ Gat ekki náð sambandi við Hag. Gakktu úr skugga um samband við bakendann og að slóðin sé rétt!</span>";
         console.error(error);
     }
 }
